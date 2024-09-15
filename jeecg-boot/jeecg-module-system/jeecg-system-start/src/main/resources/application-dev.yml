@@ -161,9 +161,9 @@ spring:
           slow-sql-millis: 5000
       datasource:
         master:
-          url: jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-          username: root
-          password: root
+          url: jdbc:mysql://8.138.8.61:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+          username: kaiqingchen
+          password: ZZ1314520w@
           driver-class-name: com.mysql.cj.jdbc.Driver
           # 多数据源配置
           #multi-datasource1:
@@ -174,9 +174,9 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: 127.0.0.1
+    host: 8.138.8.61
     port: 6379
-    password: ''
+    password: 'ZZ1314520w@'
 #mybatis plus 设置
 mybatis-plus:
   mapper-locations: classpath*:org/jeecg/**/xml/*Mapper.xml
@@ -235,9 +235,9 @@ jeecg:
   file-view-domain: http://fileview.jeecg.com
   # minio文件上传
   minio:
-    minio_url: http://minio.jeecg.com
-    minio_name: ??
-    minio_pass: ??
+    minio_url: http://8.138.8.61:9000
+    minio_name: minioadmin
+    minio_pass: minioadmin
     bucketName: otatest
   #大屏报表参数设置
   jmreport:
